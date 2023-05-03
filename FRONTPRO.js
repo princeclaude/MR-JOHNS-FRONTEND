@@ -58,10 +58,14 @@ function light() {
         this.style.backgroundColor = "black";
         this.style.color = "white";
         document.getElementById("switch").style.opacity = 2;
+        document.getElementById("switch-mode-tip").style.backgroundColor =
+          "red";
+   
        
     })
     sidemenu.style.right = "-200px";
     body.style.overflow = "scroll";
+    document.getElementById("switch-mode-tip").style.backgroundColor = "black";
    
    
 }
